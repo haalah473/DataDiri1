@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri Siswa</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        .data {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .item {
+            background: #f5f7fa;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 5px solid #2196f3;
+        }
+
+        .item span {
+            display: block;
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        .item strong {
+            color: #222;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+
+            <h1>Data Diri Siswa</h1>
+            <p class="subtitle">Informasi Data Pribadi</p>
+
+            <div class="data">
+
+                <div class="item">
+                    <span>Nama</span>
+                    <strong>Nama Kamu</strong>
+                </div>
+
+                <div class="item">
+                    <span>NISN</span>
+                    <strong>1234567890</strong>
+                </div>
+
+                <div class="item">
+                    <span>NIK</span>
+                    <strong>1234567890123456</strong>
+                </div>
+
+                <div class="item">
+                    <span>NIS</span>
+                    <strong>12345</strong>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
